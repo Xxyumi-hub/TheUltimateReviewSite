@@ -1,0 +1,67 @@
+body {
+    background: url('https://onlyvectorbackgrounds.com/wp-content/uploads/2018/12/Subtle-Christmas-Snow-Falling-Background-Navy.jpg') no-repeat fixed center;
+    background-size: cover;
+    color: white;
+  
+  }
+  
+  .hero {
+    background: #2e373c url(https://wallpaperaccess.com/full/188646.jpg) center center no-repeat;
+    color: #f5eee0;
+    padding: 80px 20px 60px 20px;
+  }
+  
+  .hero h1 {
+    background: #212a2d;
+    border-left: 6px solid #3354FF;
+    border-radius: 0 4px 4px 0;
+    color: #ffffff;
+    display: inline-block;
+    margin-bottom: 10px;
+    padding: 14px 25px;
+  }
+  
+  .hero p {
+    font-size: 16px;
+    line-height: 28px;
+    max-width: 700px;
+  }
+  
+  .icon {
+    border: 1px solid white;
+  }
+  .top-menu {
+    display: inline-block;
+    width: 100%;
+  }
+  
+  .body-icon {
+    animation: rotation 5s infinite linear;
+  }
+  
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(359deg);
+    }
+  }
+  
+  form,#emailHelp  {
+    color: white;
+  }
+
+  form {
+    margin: 2em;
+  }
+  
+  .footer {
+     position: fixed;
+     left: 0;
+     bottom: 0;
+     width: 100%;
+     background-color: black;
+     color: white;
+     text-align: center;
+  }
